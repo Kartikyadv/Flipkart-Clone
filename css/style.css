@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 
 :root {
     --main-bg-color: #2874f0;
@@ -57,11 +59,49 @@ nav ul li a:hover{
 }
 
 .search input{
-    width: 493px;
+    width: 40vw;
     height: 27px;
     border: none;
     border-radius: 2px;
-    margin: 0 56px;
+    margin: 0 16px 0 56px;
+    padding: 5px 0 5px 20px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    background-color: #f6f8f4;
+    max-width: 80vw;
+    margin: 12px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card_item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-weight: normal;
 }
 
 .container{
